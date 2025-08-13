@@ -654,129 +654,70 @@ footer .bigdiv .menufooter .Company li,
         gap: 50px;
     }
 
-    nav ul {
-        flex-direction: column;
-        gap: 20px;
-    }
+  
 
-    header .text {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
+  nav .logo{
+    margin-right: 35px;
+  }
 
-    header h1 {
-        width: 100%;
-        padding: 10px;
-        font-size: 28px;
-    }
+  nav ul {
+      flex-direction: column;
+      gap: 20px;
+      width: 50%;
+  }
 
-    header .speed {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-    }
-    header .enroll{
-      width: 80px;
-      margin: 50px 0px;
-    }
+  nav .login {
+      width: 100%;;
+  }
 
-    header img {
-        width: 90%;
-        margin: 10px auto;
-    }
+ 
 
-    /* section1 */
-    main .section1 {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 60px;
-        font-size: 20px;
-        margin: 20px 0;
-    }
-    main .section1 p {
-        margin-top: 5px;
-    }
 
-    /* section2 */
-    .section2 {
-        flex-direction: column;
-        height: auto;
-    }
-   
-    .section2 .topic {
-        width: 100%;
-        padding: 20px;
-        margin-left: 25px;
-    }
+  /* section3 */
 
-    /* section3 */
+  .section3 .features {
+      width: 80%;
+      margin-right: 100px;
 
-    .section3 .features {
-        width: 80%;
-        margin-right: 100px;
+  }
 
-    }
+  .section3 .features a{
+    margin-left: 25%;
 
-    .section3 .features a{
-      margin-left: 25%;
-
-    }
+  }
+  
     .section3 .div1,
     .section3 .div2 {
-        flex-direction: column;
-        align-items: center;
+      flex-direction: column;
+      margin: 0; 
     }
-    .section3 #certificate{
-        width: 50%;
-    }
+  
+    .section3 .features,
+    .section3 #certificate,
     .section3 #instructor,
     .section3 #support,
     .section3 #video {
-        width: 90%;
+      width: 90%; 
+      margin: 10px auto; 
+      padding: 20px; 
     }
-
-    /* section4 */
-    .section4 .courses {
-        flex-direction: column;
-        gap: 20px;
+  
+    .section3 .features h1 {
+      width: 100%;
+      font-size: 24px;
     }
-
-    /* section5 */
-    .section5 {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
+  
+    .section3 .features a {
+      width: auto;
+      margin-right: 0;
     }
-
-    /* section6 */
-    .section6 .ready {
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-    }
-    .section6 .app h1 {
-        width: 90%;
-        font-size: 24px;
-        text-align: center;
-    }
-    .section6 .app .mobile {
-        flex-direction: column;
-    }
-
-    /* footer */
-    footer .bigdiv  {
+  
+  /* section4 */
+  .section4 .courses {
       flex-direction: column;
-    }
-    footer .bigdiv .leftfooter {
-        width: 100%;
-        flex-direction: column
-    }
-    footer .bigdiv .menufooter {
-        flex-direction: row;
-        gap: 20px;
-        width: 100%;
-    }
+      gap: 20px;
+      width: 100%;
+  }
+
+
 }
