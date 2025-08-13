@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 nav {
   color: #000;
   background-color: #f9c265;
@@ -28,7 +27,7 @@ nav ul li a {
 }
 
 nav .logo {
-  margin-left: 20px;
+  margin-left: 30px;
   font-size: 20px;
   font-weight: 400;
 }
@@ -38,7 +37,6 @@ nav .login a {
   margin-left: auto;
   margin-right: 15px;
   text-decoration: none;
-
 
 }
 
@@ -647,26 +645,18 @@ footer .bigdiv .menufooter .Company li,
 }
 
 /* الموبايل */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
 
     nav {
+      display: flex;
+        flex-direction: column;
         align-items: center;
-        gap: 10px;
-      
-    }
-
-    nav .logo{
-      margin-right: 35px;
+        gap: 50px;
     }
 
     nav ul {
         flex-direction: column;
         gap: 20px;
-        width: 50%;
-    }
-
-    nav .login {
-        width: 100%;;
     }
 
     header .text {
@@ -724,33 +714,30 @@ footer .bigdiv .menufooter .Company li,
 
     /* section3 */
 
-    
-      .section3 .div1,
-      .section3 .div2 {
+    .section3 .features {
+        width: 80%;
+        margin-right: 100px;
+
+    }
+
+    .section3 .features a{
+      margin-left: 25%;
+
+    }
+    .section3 .div1,
+    .section3 .div2 {
         flex-direction: column;
-        margin: 0; /* منع المساحة الزايدة */
-      }
-    
-      .section3 .features,
-      .section3 #certificate,
-      .section3 #instructor,
-      .section3 #support,
-      .section3 #video {
-        width: 90%; /* خليهم ياخدوا تقريبا عرض الشاشة */
-        margin: 10px auto; /* مركزيهم من غير مساحة كبيرة */
-        padding: 20px; /* قلل البادينج */
-      }
-    
-      .section3 .features h1 {
-        width: 100%;
-        font-size: 24px;
-      }
-    
-      .section3 .features a {
-        width: auto;
-        margin-right: 0;
-      }
-    
+        align-items: center;
+    }
+    .section3 #certificate{
+        width: 50%;
+    }
+    .section3 #instructor,
+    .section3 #support,
+    .section3 #video {
+        width: 90%;
+    }
+
     /* section4 */
     .section4 .courses {
         flex-direction: column;
@@ -792,5 +779,4 @@ footer .bigdiv .menufooter .Company li,
         gap: 20px;
         width: 100%;
     }
-
-  }
+}
