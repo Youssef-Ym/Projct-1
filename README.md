@@ -23,7 +23,6 @@ The project simulates a modern online learning platform with multiple sections a
 
 - HTML5
 - CSS3 (Flexbox + Grid)
-- JavaScript (basic interactivity if added)
 - Responsive Design (Media Queries)
 
 ---
