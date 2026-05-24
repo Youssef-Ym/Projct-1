@@ -69,5 +69,5 @@ This project was built to practice frontend development skills and improve under
 
 ## 👨‍💻 Author
 
-- GitHub: https://github.com/yourusername
-- Name: Your Name
+- GitHub: https://github.com/Youssef-Ym
+- Name: Youssef Mohamed Abdelsalam
