@@ -1,6 +1,6 @@
 # 🌐 Online Education Website
 
-A responsive educational website built using HTML, CSS, and JavaScript.  
+A responsive educational website built using HTML, CSS.  
 The project simulates a modern online learning platform with multiple sections and a clean UI design.
 
 ---
