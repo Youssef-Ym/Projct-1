@@ -1,72 +1,46 @@
-# 🌐 Online Education Website
+# Online Education Website
 
-A responsive educational website built using HTML, CSS.  
-The project simulates a modern online learning platform with multiple sections and a clean UI design.
+A responsive front-end concept for an online learning platform, built with semantic HTML and custom CSS. The interface brings course discovery, platform highlights, and app promotion into one landing page.
 
----
+## Highlights
 
-## 🚀 Features
+- Responsive layouts for desktop, tablet, and mobile
+- Course cards and platform feature sections
+- Hero section with a clear call to action
+- Statistics, onboarding steps, and mobile app promotion
+- Structured footer navigation
 
-- Fully responsive design (mobile, tablet, desktop)
-- Hero section with call-to-action
-- Statistics section showcasing platform metrics
-- Courses section with cards layout
-- Features section highlighting platform benefits
-- Getting started steps section
-- Mobile app promotion section
-- Modern footer with multiple links
-- Clean and structured UI/UX design
-
----
-
-## 🛠️ Technologies Used
+## Built With
 
 - HTML5
-- CSS3 (Flexbox + Grid)
-- Responsive Design (Media Queries)
+- CSS3
+- Flexbox and CSS Grid
+- Media queries
 
----
+## Run Locally
 
-## 📸 Preview
+Clone the repository and open `index.html` in a web browser:
 
-> Add screenshots of your project here:
-
-- Home Page  
-- Courses Section  
-- Mobile View  
-
----
-
-## 📂 Project Structure
-
+```bash
+git clone https://github.com/Youssef-Ym/Projct-1.git
+cd Projct-1
 ```
-/project-folder
-│
+
+No build step is required.
+
+## Project Structure
+
+```text
+.
 ├── index.html
 ├── style.css
 └── images/
 ```
 
----
+## Preview
 
-## ▶️ How to Run
+Project screenshots can be added here when available.
 
-1. Download or clone the repository:
-```bash
-git clone https://github.com/yourusername/monac.git
-```
+## Author
 
-2. Open `index.html` in your browser
-
----
-
-## 📌 Purpose
-
-This project was built to practice frontend development skills and improve understanding of responsive web design and UI layout structuring.
-
----
-
-## 👨‍💻 Author
-
-- GitHub: https://github.com/Youssef-Ym
-- Name: Youssef Mohamed Abdelsalam
+Youssef Mohamed Abdelsalam · [GitHub](https://github.com/Youssef-Ym)
